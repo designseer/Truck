@@ -1,4 +1,8 @@
-/* V1.1 */
+/* 	Crafted by Designseer.com
+**	URL: https://designseer.com
+**	V1.0
+**	Bootstrap 4.0.0
+*/
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,700,700i,900|Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap');
  body {
@@ -448,6 +452,12 @@ label {
 }
 .logo-none {
 	display: none;
+}
+#header-sticky .logo img {
+	max-width: 200px;
+}
+#header-sticky .logo img, .footer-logo img {
+	max-width: 250px;
 }
 .third-main-header .main-menu ul li.active a {
 	color: #fff;
@@ -1286,6 +1296,9 @@ label {
 	line-height: 1;
 	margin-bottom: 10px;
 }
+.home-2 .slider-content h2 {
+	font-size: 80px;
+}
 .modal-shipping-title h2 {
 	font-size: 30px !important;
 }
@@ -1296,6 +1309,9 @@ label {
 	font-weight: 600;
 	/* width: 67%;
 	margin: 0 auto; */
+}
+.home-2 .slider-content p {
+	font-size: 24px;
 }
 .slider-form {
 	margin-top: 35px;
@@ -3362,7 +3378,7 @@ label {
 .fact-icon i {
 	font-size: 50px;
 	line-height: 1;
-	color: #4e3668;
+	color: #ff0037;
 }
 .fact-content h4 {
 	font-size: 36px;
@@ -4736,7 +4752,6 @@ blockquote.classic-blockquote-post::after {
 	margin-right: 0;
 }
 .copyright-wrap {
-	background: #fcfcfc;
 	padding: 10px 0;
 }
 .copyright-text p, .f-payment-method p {

@@ -32,13 +32,16 @@ a.meanmenu-reveal {
 	font-weight: 700;
 	height: 22px;
 	line-height: 22px;
-	margin-top: -46px;
+	margin-top: -50px;	
 	padding: 8px 9px;
 	position: absolute;
 	right: 15px !important;
 	text-decoration: none;
 	top: 0;
 	width: 22px;
+}
+.home-2 .mean-container a.meanmenu-reveal {
+	margin-right: 20px;
 }
 .mean-container a.meanmenu-reveal span {
 	background: #ff4800 none repeat scroll 0 0;

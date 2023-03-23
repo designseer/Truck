@@ -1,5 +1,6 @@
 # Truck
- 
-Intial version not interesting
+Crafted by Designseer.com
+V1.0
+Intial version 
+A website template for business in cargo, logistics & mover industries. Free to use for commercial purposes.
 
-V1.1
