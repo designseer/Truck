@@ -237,8 +237,20 @@ label {
 
 
 /* 2. Header */
-.header-top-wrap {
+/* .header-top-wrap {
 	padding: 6px 0px;
+} */
+.header-social i {
+    padding: 10px;
+}
+.header-social i:hover, .footer-social ul li a:hover {
+    background: #ff0d31;
+    color: #fff;
+}
+
+.header-contact {
+    margin-top: 5px;
+	font-weight: 600;
 }
 .header-container-p {
 	padding-left: 110px;
@@ -1232,15 +1244,13 @@ label {
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
-	/* clip-path: polygon(100% 0, 100% 90%, 80% 100%, 20% 100%, 0 90%, 0 0); */
 
 }
 .slider-bg-2 {
 	background-image: url(../img/slider/slider_img01.jpg);
 }
 .slider-overlay-bg {
-	/* background-image: url(../img/slider/slider_img02.png); */
-	/* background:linear-gradient(135deg, rgba(35, 31, 32, 1) 48%, rgba(247, 22, 43, 1) 52%); */
+	background:linear-gradient(135deg, rgba(35, 31, 32, 1) 48%, rgb(32, 27, 27) 52%);
 	min-height: 749px;
 	width: 100%;
 	position: absolute;
@@ -4643,7 +4653,7 @@ blockquote.classic-blockquote-post::after {
 	font-size: 14px;
 }
 .footer-social ul li a:hover {
-	color: #ff4800;
+	color: #fff;
 }
 .footer-phone {
 	border: 1px solid #242323;

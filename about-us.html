@@ -3,15 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>About us - Truck</title>
+        <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+        <title>About us - Cargo, Movers & Logistics</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         <!-- Place favicon.ico in the root directory -->
 		<!-- CSS here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
-        <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/meanmenu.css">
         <link rel="stylesheet" href="css/slick.css">
@@ -40,10 +39,52 @@
 
         <!-- header-start -->
         <header>
+            
+            <div id="header-sticky" class="main-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="logo d-flex align-items-center">
+                                <a href="index.html"><img src="img/logo/logo.jpg" class="mobile-logo" alt="Logo"></a>
+                                <div class="header-btn d-none d-lg-block">                                    
+                                    <a href="pickup.html" class="br-25 theme-color f-600 track-btn">Send</a>
+                                    <a href="tracking.html" class="br-25 theme-color f-600 track-btn">Track</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 d-none d-md-block">
+                            <div class="menu-area">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="active"><a href="index.html">Home</a>
+                                                <ul class="submenu">
+                                                    <li><a href="index-2.html">Home Alt</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about-us.html">About</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="network.html">Network</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li class="d-block d-sm-none"> <a href="pickup.html" class="">Send</a></li>
+                                            <li class="d-block d-sm-none"> <a href="tracking.html" class="">Track</a></li>                                            
+                                        </ul>
+                                    </nav>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-12 p-0">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="header-top-wrap gray-bg d-none d-md-block">
-                <div class="container-fluid header-container-p">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-7 col-md-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="header-contact">
                                 <ul>
                                     <li><i class="fas fa-phone"></i>+654 3048 9658</li>
@@ -51,7 +92,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-5 col-md-6">
+                        <div class="col-lg-6 col-md-6">
                             <div class="header-top-right d-flex justify-content-end align-items-center">
                                 <div class="header-social">
                                     <ul>
@@ -65,46 +106,12 @@
                     </div>
                 </div>
             </div>
-            <div id="header-sticky" class="main-header">
-                <div class="container-fluid header-container-p">
-                    <div class="row align-items-center">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="logo">
-                                <a href="index.html"><img src="img/logo/logo.jpg" class="mobile-logo" alt="Logo"></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 col-md-6 d-none d-md-block">
-                            <div class="menu-area">
-                                <div class="main-menu">
-                                    <nav id="mobile-menu">
-                                        <ul>
-                                            <li class="active"><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="network.html">Network</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li class="d-block d-sm-none"> <a href="tracking.html" class="">Track now</a></li>
-                                            <li class="d-block d-sm-none"> <a href="pickup.html" class="">Pickup request</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="header-btn d-none d-sm-block">
-                                    <a href="tracking.html" class="btn br-25">Track now</a>
-                                    <a href="pickup.html" class="btn br-25">Pickup request</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="mobile-menu"></div>
-                        </div>
-                    </div>
-            </div>
+
         </header>
         <!-- header-start-end -->
 
         <!-- main-area -->
-        <main>
+        <main class="this-class">
 
            <!-- breadcrumb-area -->
            <div class="breadcrumb-area breadcrumb-bg">
@@ -114,11 +121,11 @@
                         <div class="breadcrumb-content">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="dots"></li>
+                                    
                                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                                     
                                     <li class="breadcrumb-item active" aria-current="page">About us</li>
-                                    <li class="dots2"></li>
+                                    
                                 </ol>
                             </nav>
                             <h2>About us</h2>
@@ -282,7 +289,6 @@
 
         </main>
         <!-- main-area-end -->
-
         <div class="side-tab">
             <div class="">
                 <a class="fixed-tracking" href="tracking.html" rel="nofollow noopener" title="Track now">
@@ -327,13 +333,13 @@
         </div>
         <!-- footer -->
         <footer>
-            <div class="footer-wrap pt-60 pb-30" data-background="img/bg/footer_bg.jpg">
+            <div class="footer-wrap pt-60">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6">
                             <div class="footer-widget mb-50">
                                 <div class="footer-logo mb-35">
-                                    <a href="index.html"><img src="img/logo/white_logo.jpg" alt="img"></a>
+                                    <a href="index.html"><img src="img/logo/logo.jpg" alt="img"></a>
                                 </div>
                                 <div class="footer-text">
                                     <p>Lorem Ipsum is simply dumm text the printing and types indstr orem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -349,10 +355,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-2 col-md-6 col-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>Resources</h5>
+                                    <h5 class="text-dark">Resources</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
@@ -366,72 +372,46 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>USEFUL LINKS</h5>
+                                    <h5 class="text-dark">Our Services</h5>
                                 </div>
                                 <div class="fw-link">
                                     <ul>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> About us</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Delivery Information</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Terms & Conditions</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Privacy Policy</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Refund Policy</a></li>
-                                        <li><a href="#"><i class="fas fa-caret-right"></i> Track Package</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Air Cargo</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Sea Cargo</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Frieght Forwarding</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Clearance</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> International Courier</a></li>
+                                        <li><a href="#"><i class="fas fa-caret-right"></i> Door to Door Delivery</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6">
                             <div class="footer-widget mb-50">
                                 <div class="fw-title mb-30">
-                                    <h5>Contact</h5>
-                                </div>
+                                    <h5 class="text-dark">Locations</h5>
+                                </div>                                
                                 <div class="f-support-content">
-                                    <div class="footer-phone">
-                                        <a class="d-flex" href="tel:+971 42344100">
-                                            <div class="left">
-                                                <i class="fas fa-phone-alt"></i>
+                                    <div class="single-choose mb-40">
+                                        <div class="choose-head">
+                                            <div class="choose-icon mb-25 justify-content-around">
+                                                <a href="tel:+971 55558888"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 55558888">DUBAI</a></h3>
+                                                <a href="tel:+971 55558888"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 55558888">AJMAN</a></h3>
                                             </div>
-                                            <div class="right">
-                                                <p>Karama, Dubai, UAE</p>
-                                                <p class="second">+971 42344100 </p>
+                                           
+                                            <div class="choose-icon mb-25 justify-content-around">
+                                                <a href="tel:+971 55558888"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 55558888">ABU DHABI</a></h3>
+                                                <a href="tel:+971 55558888"><img src="img/icon/map_icon.png" alt="img"></a>
+                                                <h3><a href="tel:+971 55558888">AL AIN</a></h3>
                                             </div>
-                                        </a>
-                                    </div>
-                                    <div class="footer-phone">
-                                        <a class="d-flex" href="tel:+971 37331621">
-                                            <div class="left">
-                                                <i class="fas fa-phone-alt"></i>
-                                            </div>
-                                            <div class="right">
-                                                <p>Al Ain, UAE</p>
-                                                <p class="second">+971 37331621 </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="footer-phone">
-                                        <a class="d-flex" href="tel:+971 67311043">
-                                            <div class="left">
-                                                <i class="fas fa-phone-alt"></i>
-                                            </div>
-                                            <div class="right">
-                                                <p>Ajman, UAE</p>
-                                                <p class="second">+971 67311043 </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="footer-phone">
-                                        <a class="d-flex" href="tel:+971 24455745">
-                                            <div class="left">
-                                                <i class="fas fa-phone-alt"></i>
-                                            </div>
-                                            <div class="right">
-                                                <p>Abu Dhabi, UAE</p>
-                                                <p class="second">+971 24455745 </p>
-                                            </div>
-                                        </a>
+                                            <a href="network.html" class="btn justify-content-center">See all networks</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -439,7 +419,7 @@
                     </div>
                 </div>
             </div>
-            <div class="copyright-wrap">
+            <div class="copyright-wrap primary-bg">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-md-7">
@@ -462,18 +442,13 @@
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <!-- <script src="js/isotope.pkgd.min.js"></script> -->
         <script src="js/slick.min.js"></script>
         <script src="js/jquery.meanmenu.min.js"></script>
         <script src="js/wow.min.js"></script>
-        <!-- <script src="js/aos.js"></script> -->
-        <!-- <script src="js/paroller.js"></script> -->
         <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/jquery.counterup.min.js"></script>
-        <!-- <script src="js/jquery.nice-select.min.js"></script> -->
         <script src="js/imagesloaded.pkgd.min.js"></script>
-        <!-- <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script> -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
